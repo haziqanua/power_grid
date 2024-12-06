@@ -1,5 +1,5 @@
-#include <BaseAsset.h>
-#include <AssetEnums.h>
+#include "BaseAsset.h"
+#include "AssetEnums.h"
 
 class ResourceAsset : public BaseAsset
 {
