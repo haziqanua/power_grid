@@ -1,13 +1,14 @@
 #include <BaseAsset.h>
+#include <AssetEnums.h>
 
 class ResourceAsset : public BaseAsset
 {
     private:
-    int m_type = 0;
+    ResourceType m_type = None;
     int m_id = 0;
 
     public:
-    ResourceAsset(int type, int id, int price);
+    ResourceAsset(ResourceType type, int id, int price);
 };
 
 class CoalResource : public ResourceAsset
